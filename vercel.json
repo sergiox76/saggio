@@ -5,7 +5,7 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://nahowllxvuhsvylbogve.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5haG93bGx4dnVoc3Z5bGJvZ3ZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxNjY2ODMsImV4cCI6MjA4Nzc0MjY4M30.CjgIxvP2X5InIarrC5--r8etnriQON0jDULQRZkpMms"
   }
 }
