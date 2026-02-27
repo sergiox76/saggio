@@ -6,8 +6,8 @@ const nextConfig = {
     domains: [],
   },
 
-  experimental: {
-    turbo: false,
+  turbopack: {
+    root: __dirname,
   },
 };
 
