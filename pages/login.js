@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import { useAuth, useToast } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const ROLES = [
   { id: 'estudiante', icon: '🎓', label: 'Estudiante' },

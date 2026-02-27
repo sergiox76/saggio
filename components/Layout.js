@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useAuth } from '../pages/_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const NAV_ITEMS = {
   all: [

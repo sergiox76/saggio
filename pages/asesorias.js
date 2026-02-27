@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import { useAuth, useToast } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const MOCK_ASESORES = [
   {

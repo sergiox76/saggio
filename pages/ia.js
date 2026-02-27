@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import { useAuth } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const SUGGESTIONS = {
   estudiante: [

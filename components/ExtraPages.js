@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import { useAuth, useToast } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const RECURSOS = [
   { icon:'📄', titulo:'Guía de Metodología de Investigación', desc:'Documento completo con todos los pasos para diseñar una investigación académica robusta.', tipo:'PDF', tamano:'2.4 MB' },

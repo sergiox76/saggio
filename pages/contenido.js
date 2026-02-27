@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import { useAuth, useToast } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const TOPICS = [
   { id:1, titulo:'Introducción a la Investigación Científica', categoria:'fundamentos', tag:'Módulo 1', desc:'Fundamentos epistemológicos y metodológicos de la investigación académica universitaria.', lecciones:8, duracion:'4h 30min', contenidos:['Tipos de conocimiento científico','Paradigmas de investigación','El problema científico','Objetivos e hipótesis','Ética en la investigación'] },

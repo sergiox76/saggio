@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import { useAuth } from './_app'
+import { useAuth, useToast } from '../context/AppContext'
 
 const ROLE_CONFIG = {
   estudiante: {
